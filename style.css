@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css?family=Proxima+Nova');
+
+
+/* .logo {
+    position: absolute;
+    width: 196.22px;
+    height: 64px;
+    left: 71.6px;
+    top: 66.9px;
+} */
+
+.background {
+    background-image: url('./images/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    object-fit: cover;
+}
+
+.about_background {
+    background-image: url('./images/about/image 29.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto;
+    object-fit: cover;
+}
+
+.vector_1 {
+    background-image: url('./images/waves/Vector_background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    padding: 100px;
+    height: 50%;
+    margin-top: 570px;
+}
+
+.who {
+    width: 100%;
+    /* height: 350px; */
+    background: #006994;
+    border-radius: 35px;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+
+}
+
+.para2 {
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    text-align: justify;
+}
+
+.text {
+    margin-top: 430px;
+    margin-left: 100px;
+    position: absolute;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+
+    color: #000000;
+
+}
+
+.para {
+    position: absolute;
+    font-family: 'Proxima Nova';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+}
+
+.certifications {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    object-fit: cover;
+    padding: 40px 80px;
+}
+
+.certi {
+    background-image: url('./images/waves/Vector_certification.png');
+    padding: 200px 200px 50px 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+}
+
+.wave {
+    background-image: url('./images/waves/Vector_footer1.png');
+    padding: 250px 0px 120px 00px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+@media (max-width: 400px) {
+    .certi {
+        background-image: url('./images/waves/Vector_certification.png');
+        padding: 100px 10px 50px 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: cover;
+    }
+
+    .our_products {
+        font-family: 'Proxima Nova';
+        color: #006994;
+        margin-top: 70px !important;
+        margin-left: 10px !important;
+    }
+
+}
+
+@media (max-width: 600px) and (min-width:401px) {
+    .certi {
+        background-image: url('./images/waves/Vector_certification.png');
+        padding: 100px 10px 50px 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        object-fit: cover;
+    }
+}
+
+.wwd {
+    font-family: 'Proxima Nova';
+}
+
+.exp {
+    padding: 50px;
+    background-color: #9BDAF4;
+    color: #006994;
+    font-family: 'Proxima Nova';
+
+}
+
+.cards {
+    font-family: 'Proxima Nova';
+    text-align: center;
+}
+
+.vision,
+.revenue,
+.technology {
+    transition: 0.6s all linear;
+}
+
+.vision:hover,
+.revenue:hover,
+.technology:hover {
+    transform: scale(1.05);
+}
+
+.card {
+    padding: 30px 20px;
+    border-radius: 27px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.strip {
+    background-color: #9BDAF4;
+    padding: 40px;
+}
+
+.cards2 {
+    font-family: 'Proxima Nova';
+    text-align: center;
+}
+
+.card2 {
+    box-shadow: 0px 69px 114px rgba(0, 0, 0, 0.08);
+    padding: 80px 0px 40px 0px;
+    border-radius: 30px;
+}
+
+.essential_background {
+    background-image: url('./images/products/essential oils/unsplash_LmMVBaZyHoI.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px !important;
+    object-fit: cover;
+}
+
+.our_products {
+    font-family: 'Proxima Nova';
+    color: #006994;
+    margin-top: 170px;
+    margin-left: 40px;
+}
+
+.op {
+    font-size: 55px;
+}
+
+.card3 {
+    background: #FFFFFF;
+    box-shadow: 0px 69px 114px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    transition: 0.6s;
+}
+
+.mybtn {
+    /* border: 1px solid #4CB1DB; */
+    padding: 15px 20px;
+    border-radius: 35px;
+    color: #006D99;
+    text-decoration: none;
+    font-size: 20px;
+    max-width: 240px;
+    margin: auto;
+}
+
+.btn-active {
+    border: 1px solid #4CB1DB;
+    padding: 15px 20px;
+    border-radius: 35px;
+    color: #006D99;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 20px;
+    max-width: 240px;
+    margin: auto;
+}
+
+.btn-active:hover {
+    text-decoration: none;
+    border: 1px solid #4CB1DB;
+    color: #006D99;
+}
+
+.mybtn:hover {
+    border: 1px solid #4CB1DB;
+}
+
+.oleoresins_background {
+    background-image: url('./images/oleoresins/unsplash_oAJ8q-cb1dg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+.herbal_background {
+    background-image: url('./images/herbal/unsplash_TwZewnGDXeM.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+.absolutes_background {
+    background-image: url('./images/absolutes/unsplash_MoPGCgHPS6I.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+.aroma_background {
+    background-image: url('./images/aroma/unsplash_RNjbcPAsol8.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px !important;
+    object-fit: cover;
+}
+
+.machinery,
+.b2b,
+.products {
+    transition: 0.6s all linear;
+}
+
+.machinery:hover,
+.b2b:hover,
+.products:hover {
+    transform: scale(1.05);
+}
+
+.lm1,.lm2,.lm3,.lm4 {
+    border: 1px solid #40C95E;
+    border-radius: 1px;
+    font-family: 'Source Sans Pro';
+    font-size: 17px;
+    text-align: center;
+    padding: 15px 30px;
+}
+
+.lm1:hover,.lm2:hover,.lm3:hover,.lm4:hover {
+    background-color: #4CB1DB;
+    color: white;
+    border: 1px solid #4CB1DB;
+} 
+
+.submit{
+    transition: 0.4s;
+}
+
+.submit:hover{
+    transform: scale(1.04);
+}
